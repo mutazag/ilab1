@@ -1,0 +1,12 @@
+downloading the files to folder `data/WR2'
+
+```
+cd data/WR2
+mkdir LASSO_BR2_BEST_extended
+cd LASSO_BR2_BEST_extended
+```
+```
+curl -L "https://www.dropbox.com/sh/kev4b2s367bn2vz/AAB3_cH_WsD5V-UkPwLC5w5Wa/LASSO_BR2_BEST_extended/kmeans_randomized_trainingset_0_unindexed.csv?dl=0" --output kmeans_randomized_trainingset_0_unindexed.csv
+curl -L "https://www.dropbox.com/sh/kev4b2s367bn2vz/AAB-C9qcZMCoZfCR1eUFV7dra/LASSO_BR2_BEST_extended/kmeans_randomized_testset_0_unindexed.csv?dl=0" --output kmeans_randomized_testset_0_unindexed.csv
+curl -L "https://www.dropbox.com/sh/kev4b2s367bn2vz/AACA8y_IIqVfXBeZFPNj6D-la/LASSO_BR2_BEST_extended/LARGE_DL_SET.csv?dl=0" --output LARGE_DL_SET.csv
+curl -L "https://www.dropbox.com/s/pwzh1z51p6deew2/COMPLETE_DL_SET.csv?dl=0" --output COMPLETE_DL_SET.csv

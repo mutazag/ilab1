@@ -1,0 +1,23 @@
+/* @page { size: A3 landscape; margin: 1cm}  */
+@page { size: A3 landscape;} 
+table{
+  border-collapse: collapse;
+  width: 100%;
+}
+body {
+  font: normal x-small/.5 sans-serif;
+}
+th, td {
+  border: 1px solid black;
+  padding: 0.4rem; 
+  text-align: left;
+  
+}
+th{
+  background-color:lightsteelblue;
+}
+tbody tr:nth-child(odd) {
+  background: aliceblue;
+}
+/* landspace https://www.w3.org/TR/css-page-3/#valdef-page-size-landscape */
+/* https://css-tricks.com/complete-guide-table-element/ */

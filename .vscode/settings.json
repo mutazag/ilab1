@@ -1,0 +1,10 @@
+{
+    "python.pythonPath": "/usr/bin/python3.6",
+    "python.linting.pylintEnabled": false,
+    "python.linting.enabled": true,
+    "python.linting.pycodestyleEnabled": true, 
+    "python.linting.pycodestyleArgs": [
+        "--ignore=E265,W291", 
+        "--max-line-length=120"
+    ]
+}
